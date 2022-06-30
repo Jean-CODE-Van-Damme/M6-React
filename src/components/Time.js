@@ -1,5 +1,5 @@
 const Time = ({ eventTime }) => {
-  return <p>{eventTime}</p>;
+  return <p className="time">{eventTime}</p>;
 };
 
 export default Time;
